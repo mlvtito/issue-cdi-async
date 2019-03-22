@@ -1,0 +1,2 @@
+create-jdbc-connection-pool --datasourceclassname org.h2.jdbcx.JdbcDataSource --restype javax.sql.DataSource --property user=gogn:password=gogn:DatabaseName=gogn:url="jdbc:h2:/tmp/gogn;AUTO_SERVER=TRUE" gogn-pool
+create-jdbc-resource --connectionpoolid gogn-pool jdbc/gogn
